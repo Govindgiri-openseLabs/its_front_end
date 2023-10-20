@@ -1,0 +1,44 @@
+/* ImageMapComponent.css */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-map-container {
+    position: relative;
+    text-align: center; /* Optional: Center-align the responsive image */
+    width: 80%;
+    left: 10%;
+    right: 10%;
+  }
+  
+
+
+
+
+  .welcome-box {
+    top: 0;
+    width: 100%;
+    margin-bottom:100px;
+    padding: 20px;
+    background-color: #6f707071;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+  }
+
+
+  .btnn{
+    display:webkit-inline-flex;
+    position: relative;
+    width: 20%;
+    text-align: center;
+  }
+
+
+  .list-container{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    text-align: center;
+  }

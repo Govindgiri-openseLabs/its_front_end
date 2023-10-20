@@ -1,0 +1,73 @@
+/* signup_css.css */
+
+/* Base styles for larger screens */
+.signup-container {
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    padding: 10px;
+    align-self: flex-start;
+    font-weight: bold;
+    display: block; /* Force label to be on a new line */
+}
+
+fieldset div {
+    display: flex;
+    flex-direction: column; /* Change to a column layout for larger screens */
+    gap: 10px;
+    align-items: center; /* Align both labels and inputs to the center */
+}
+
+/* Adjust the label styles to be positioned to the left of the input fields */
+fieldset div label {
+    font-weight: bold;
+    width: auto; /* Reset the label width */
+    text-align: left; /* Align the text to the left */
+    padding-left: 9%; /* Add left padding */
+}
+
+/* Add this CSS to center the input fields within the fieldset div */
+fieldset div input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 80%; /* Adjust input field width to 80% */
+    margin: 0 auto;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media (max-width: 600px) {
+    .signup-container {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

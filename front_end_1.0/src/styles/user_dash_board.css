@@ -1,0 +1,166 @@
+/* Add these styles to your existing CSS file */
+
+/* Style for the main container */
+.image-section {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .image-section h2 {
+    font-size: 24px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for individual body parts */
+  .head,
+  .right_hand,
+  .left_hand,
+  .right_leg,
+  .left_leg,
+  .trunk {
+    position: absolute;
+    border: 1px solid black;
+    opacity: 0.3;
+    border-radius: 50%;
+  }
+  
+  .head {
+    position: absolute;
+    border: 1px solid black;
+    opacity: 0.3;
+    background-color: rgb(239, 41, 6);
+    width: 100px; /* Adjust width to match the head's size */
+    height: 100px; /* Adjust height to match the head's size */
+    top: 50px; /* Adjust the top position to place it correctly */
+    left: 100px; /* Adjust the left position to place it correctly */
+  }
+  
+  
+  .right_hand {
+    background-color: blue;
+    width: 135px;
+    height: 620px;
+    top: 20%;
+    left: 31.45%;
+    transform: rotate(23deg);
+  }
+  
+  .left_hand {
+    background-color: rgb(246, 255, 0);
+    width: 135px;
+    height: 620px;
+    top: 20%;
+    left: 61.3%;
+    transform: rotate(156deg);
+  }
+  
+  .right_leg {
+    background-color: rgb(246, 255, 0);
+    width: 170px;
+    height: 740px;
+    top: 50%;
+    left: 51%;
+    transform: rotate(-2deg);
+  }
+  
+  .left_leg {
+    background-color: rgb(246, 255, 0);
+    width: 170px;
+    height: 740px;
+    top: 50%;
+    left: 40%;
+    transform: rotate(2deg);
+  }
+  
+  .trunk {
+    background-color: rgb(246, 255, 0);
+    width: 280px;
+    height: 530px;
+    top: 10%;
+    left: 42.5%;
+  }
+  
+  /* List container styles */
+  .list-container {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: 1px black solid;
+  }
+  
+  .list-container h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  table {
+    position: relative;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    border-collapse: collapse;
+    border: 0.5px gray solid;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #0073e6;
+    color: #fff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  select {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .remove-button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .remove-button:hover {
+    background-color: #ff2d00;
+  }
+  
+  button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  button:hover {
+    background-color: #1b5669;
+  }
+  
+
+  
